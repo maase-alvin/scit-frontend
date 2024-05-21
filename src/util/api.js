@@ -1,4 +1,4 @@
-const baseUrl = 'http://127.0.0.1:8000/api/';
+const baseUrl = 'http://18.217.158.238:8000/api/';
 
 export async function login(formData) {
     const response = await fetch(baseUrl + 'user/token/', {
